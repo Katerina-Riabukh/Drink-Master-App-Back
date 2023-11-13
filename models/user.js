@@ -41,7 +41,6 @@ const userSchema = new Schema(
     },
     userAuth: {type: Number, default: 0},
     userFavorite: {type: Number, default: 0},
-    // refreshToken: String,
   },
   {
     timestamps: true,
