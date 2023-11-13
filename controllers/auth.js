@@ -7,7 +7,6 @@ const {
 
 const signup = controllerWrapper(async (req, res) => {
   const { user, token } = await registerUser(req.body);
-  console.log(user, token);
 
   res.status(201).json({
     message: "Created",
